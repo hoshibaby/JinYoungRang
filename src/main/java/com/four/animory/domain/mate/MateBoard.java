@@ -35,7 +35,7 @@ public class MateBoard extends BaseEntity {
     @Column(nullable = false, length = 300)
     private String title;
     @Column(nullable = false, length = 3000)
-    private String Content;
+    private String content;
 
    @ManyToOne(fetch = FetchType.LAZY)
 //    @JoinColumn(name="mid") //fat info
